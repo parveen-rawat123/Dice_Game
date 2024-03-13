@@ -1,0 +1,52 @@
+.container {
+    margin: 100px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    width: 470px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+  }
+  .diceparent {
+    display: flex;
+    gap: 50px;
+  }
+  .diceroll {
+    height: 70px;
+    width: 80px;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+  }
+  .div {
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+  }
+  .div div {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .dice p {
+    font-size: 2rem;
+  }
+  button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    font-size: 1.3rem;
+  }
+  .diceroll .div {
+    width: 100%;
+  }
